@@ -1,19 +1,19 @@
 .Galeries {
     width: 90%;
     margin: 1rem;
-    height: 20%;
+    height: 40%;
     display: flex;
+    align-items: center;
 }
 
 .BigDivImg,
 .GridDivImg {
     width: 50%;
-    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 1;
- 
+
 }
 
 .ResponsiveImgs {
@@ -25,8 +25,8 @@ img {
 }
 
 .BigDivImg>img {
-    width: 90%;
-    height: 100%;
+    width: 25rem;
+    height: 25rem;
     object-fit: cover;
 }
 
@@ -50,8 +50,9 @@ img {
 }
 
 .Imgs1 {
-    width: 30%;
-    height: 100%;
+    width: 33%;
+    height: 25rem;
+    margin-left: 0;
     display: flex;
     flex-direction: column;
 
@@ -60,16 +61,18 @@ img {
 .Imgs1 img:first-child {
     height: 65%;
     width: 100%;
+    object-fit: cover;
 }
 
 .Imgs1 img:last-child {
     height: 35%;
     width: 100%;
+    object-fit: cover;
 }
 
 .Imgs2 {
-    height: 100%;
-    width: 30%;
+    height: 25rem;
+    width: 33%;
     display: flex;
     flex-direction: column;
 }
@@ -77,17 +80,19 @@ img {
 .Imgs2 img:first-child {
     height: 50%;
     width: 100%;
+    object-fit: cover;
 }
 
 .Imgs2 img:last-child {
     height: 50%;
     width: 100%;
+    object-fit: cover;
 }
 
 
 .Imgs3 {
-    height: 100%;
-    width: 30%;
+    height: 25rem;
+    width: 33%;
     display: flex;
     flex-direction: column;
 }
@@ -103,20 +108,24 @@ img {
 }
 
 @media only screen and (max-width:1200px) {
+
     .Galeries {
         flex-direction: column;
         row-gap: 12px;
         width: 70%;
     }
 
-    .BigDivImg,
-    .GridDivImg {
+    .BigDivImg {
         width: 100%;
+    }
+
+    .GridDivImg {
+        width: 25rem
     }
 
 }
 
-@media only screen and (max-width:850px) {
+@media only screen and (max-width:552px) {
     .GridDivImg {
         display: none;
     }
