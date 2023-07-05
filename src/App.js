@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import Prometteuses from './sections/Prometteuses';
 import Enseignants from './components/Enseignants';
+import Galerie from './components/Galerie';
 
 function App() {
   const [openNav, setOpenNav]= useState(false)
@@ -12,6 +13,7 @@ function App() {
         <Navbar openNav={openNav} setOpenNav={setOpenNav} />
         <Hero/>
         <Enseignants/>
+        <Galerie/>
     </div>
   );
 }

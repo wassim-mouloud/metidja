@@ -1,0 +1,140 @@
+.Galeries {
+    width: 90%;
+    margin: 1rem;
+    height: 20%;
+    display: flex;
+}
+
+.BigDivImg,
+.GridDivImg {
+    width: 50%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+ 
+}
+
+.ResponsiveImgs {
+    display: none;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.BigDivImg>img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.GalerieSec {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.doubleImg {
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.doubleImg>img {
+    object-fit: cover;
+}
+
+.Imgs1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Imgs1 img:first-child {
+    height: 65%;
+    width: 100%;
+}
+
+.Imgs1 img:last-child {
+    height: 35%;
+    width: 100%;
+}
+
+.Imgs2 {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Imgs2 img:first-child {
+    height: 50%;
+    width: 100%;
+}
+
+.Imgs2 img:last-child {
+    height: 50%;
+    width: 100%;
+}
+
+
+.Imgs3 {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Imgs3 img:first-child {
+    height: 35%;
+    width: 100%;
+}
+
+.Imgs3 img:last-child {
+    height: 65%;
+    width: 100%;
+}
+
+@media only screen and (max-width:1200px) {
+    .Galeries {
+        flex-direction: column;
+        row-gap: 12px;
+        width: 70%;
+    }
+
+    .BigDivImg,
+    .GridDivImg {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:850px) {
+    .GridDivImg {
+        display: none;
+    }
+
+    .BigDivImg>img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .ResponsiveImgs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+
+    .ResponsiveImgs>img {
+        width: 100%;
+    }
+
+}
