@@ -5,8 +5,8 @@ const Galerie = () => {
     return (<>
 
         <section className='GalerieSec'>
-            <h2>
-                Galeries
+            <h2 className='ftext-black font-bold text-[28px] lg:text-[40px]  p-5 lg:p-8 ' >
+                Galerie
             </h2>
             <div className='Galeries'>
                 <div className='BigDivImg'>
