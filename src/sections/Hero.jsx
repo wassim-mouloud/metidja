@@ -24,7 +24,7 @@ function Hero() {
       };
 
   return (
-    <div className='flex flex-col items-center justify-center h-[92vh] gap-8' >
+    <div className='flex flex-col items-center justify-center gap-8' >
         <div className='flex flex-col lg:flex-row lg:justify-between  w-screen lg:w-[80vw]   lg:mx-auto gap-6 p-6 lg:p-0 ' >
             <div className='flex flex-col items-center gap-6 lg:items-start ' >
                 <h1 className='text-black text-center lg:text-left font-bold text-[28px] lg:text-[50px] ' >
