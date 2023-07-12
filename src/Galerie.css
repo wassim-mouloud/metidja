@@ -1,19 +1,19 @@
 .Galeries {
-    width: 90%;
-    margin: 1rem;
+    width: 90vw;
+    margin-top: 1rem;
     height: 40%;
     display: flex;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
 }
 
 .BigDivImg,
 .GridDivImg {
-    width: 50%;
+    width:49% ;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex: 1;
-
 }
 
 .ResponsiveImgs {
@@ -28,6 +28,7 @@ img {
     width: 25rem;
     height: 25rem;
     object-fit: cover;
+    width: 100%;
 }
 
 .GalerieSec {
