@@ -34,8 +34,8 @@ function Hero() {
                     pour attirer des investisseurs qualifiés et accrédités de qualité.
                 </p>
                 <div className='flex gap-6 lg:gap-8' >
-                    <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className={`b1 font-semibold text-[12px] lg:text-[14px]  hover:text-[#306DC9] flex justify-center items-center w-[160px] lg:w-[190px] h-[45px] bg-[#306DC9] hover:bg-white rounded-md transition-all duration-300 border border-solid   hover:border-[#306DC9] ${b2Hovered?'border-[#306DC9] text-[#306DC9] bg-white':'text-white'} `} >Reserver maintenant</button>
-                    <button onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2} className={`b2 font-semibold text-[12px] lg:text-[14px] text-[#306DC9] hover:text-white flex justify-center items-center w-[160px] lg:w-[190px] h-[45px] bg-white hover:bg-[#306DC9] rounded-md border-[1px] border-solid border-[#306DC9] hover:border-white transition-all duration-300 `} >Voir le planning</button>
+                    <button className={`b1 font-semibold text-[12px] text-white lg:text-[14px]  hover:text-[#306DC9] flex justify-center items-center w-[160px] lg:w-[190px] h-[45px] bg-[#306DC9] hover:bg-white rounded-md transition-all duration-300 border border-solid   hover:border-[#306DC9]  `} >Reserver maintenant</button>
+                    <button className={`b2 font-semibold text-[12px] lg:text-[14px] text-[#306DC9] hover:text-white flex justify-center items-center w-[160px] lg:w-[190px] h-[45px] bg-white hover:bg-[#306DC9] rounded-md border-[1px] border-solid border-[#306DC9] hover:border-white transition-all duration-300 `} >Voir le planning</button>
                 </div>
             </div>
             <img src="./images/classe.png" alt="rocket launch" className='w-[full] lg:w-[462px] lg:h-[462px]' />

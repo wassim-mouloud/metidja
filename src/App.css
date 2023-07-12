@@ -71,10 +71,5 @@ body{
   transition: transform 500ms linear ;
 }
 
-.b1:hover + .b2{
-  background-color: #306DC9;
-  color: white;
-  border-color: white;
-}
 
 
