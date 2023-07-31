@@ -4,8 +4,8 @@ function Hero() {
 
 
   return (
-    <div className='flex flex-col items-center justify-center gap-8 lg:mb-[30px] lg:mt-[30px]' >
-        <div className='flex flex-col lg:flex-row lg:justify-between  w-screen md:w-[80vw] lg:w-[80vw] lg:mx-auto gap-6 p-6 lg:p-0 ' >
+    <div className='flex flex-col items-center justify-center gap-8 lg:mb-[30px] lg:mt-[50px]' >
+        <div className='flex flex-col lg:flex-row lg:justify-between  w-screen md:w-[80vw] lg:w-[90vw] lg:mx-auto gap-6 p-6 lg:p-0 ' >
             <div className='flex flex-col items-center gap-6 lg:items-start ' >
                 <h1 className='text-black text-center lg:text-left font-bold text-[28px] md:text-[40px] lg:text-[50px] ' >
                     Première plateforme de <span className='text-[#306DC9]' >financement</span> pour les startups en Algérie
@@ -20,7 +20,7 @@ function Hero() {
             </div>
             <img src="./images/classe.png" alt="rocket launch" className='w-full max-h-[500px] my-auto md:w-full md:h-[500px]  lg:h-[462px]' />
         </div>
-        <div className='flex w-full md:w-[80%] lg:w-[80%] items-center justify-between lg:justify-center gap-3 lg:gap-[200px] mx-auto p-6 lg:p-0 ' >
+        <div className='flex w-full md:w-[80%] lg:w-[90%] items-center justify-between lg:justify-center gap-3 lg:gap-[250px] mx-auto p-6 lg:p-0 ' >
             <div className='items-center justify-center hidden gap-4 md:flex'>
                 <img src="./images/enseignant.png" alt="" className='h-[30px] w-[30px]'/>
                 <div>
