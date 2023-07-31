@@ -54,7 +54,7 @@ img {
 
 .Imgs1 {
     width: 33%;
-    height: 25rem;
+    height: 100%;
     margin-left: 0;
     display: flex;
     flex-direction: column;
@@ -74,7 +74,7 @@ img {
 }
 
 .Imgs2 {
-    height: 25rem;
+    height: 100%;
     width: 33%;
     display: flex;
     flex-direction: column;
@@ -94,7 +94,7 @@ img {
 
 
 .Imgs3 {
-    height: 25rem;
+    height: 100%;
     width: 33%;
     display: flex;
     flex-direction: column;
