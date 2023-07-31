@@ -6,7 +6,7 @@ function Enseignants() {
     const teachers=[0,1,2,3,4,5,6,7,8,9,10,11]
 
   return (
-    <div className='flex flex-col items-center gap-[100px] md:px-4  ' >
+    <div className='flex flex-col items-center gap-[100px] md:px-4 mt-10 ' >
         <p className='text-black font-bold text-[28px] lg:text-[40px] p-5 lg:p-8' >Nos enseignants</p>
         <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-[100px] lg:gap-x-[50px] lg:gap-y-[100px]   ' >
             {teachers.map((teacher, i)=>{

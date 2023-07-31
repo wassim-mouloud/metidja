@@ -19,7 +19,7 @@ function DaySlider({day}) {
         sliderRef.current.style.transition = 'transform 0.5s linear';
         sliderRef.current.style.transform = 'translateX(' + (size * newIndex) + 'px)';    }
   return (
-    <div className='w-screen px-4' >
+    <div className='w-screen px-4 mt-10' >
         <p className='text-[24px] text-black font-semibold' >{day}</p>
         <div className='relative w-full overflow-hidden' >
             <div onClick={handlePrev} className='z-[99] h-full w-[40px] cursor-pointer bg-[rgba(0,0,0,0.1)] hover:bg-[rgba(0,0,0,0.5)] transition-all duration-200 absolute left-0 top-0 hidden lg:flex justify-center items-center rounded-l-md' >
@@ -28,7 +28,7 @@ function DaySlider({day}) {
             <div ref={sliderRef} className='flex w-full gap-2 pb-4 overflow-x-scroll lg:pb-0 lg:overflow-x-visible' >
                         {cartes.map((carte, index)=>{
                             return(
-                                <div key={index} className={`flex-shrink-0 bg-[#306DC9] rounded-md h-[150px] ${index%4===3?'w-[calc(100%/4)]':'w-[calc(100%/4-8px)]'}`} >{index}</div>
+                                <div key={index} className={`flex-shrink-0 bg-[#306DC9] rounded-md h-[150px] ${index%4===3?'w-[calc(100%/3)] lg:w-[calc(100%/4)]':'w-[calc(100%/3-8px)] lg:w-[calc(100%/4-8px)]'}`} >{index}</div>
                             )
                         })}
 
