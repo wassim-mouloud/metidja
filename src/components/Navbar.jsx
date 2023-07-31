@@ -6,7 +6,7 @@ function Navbar({openNav, setOpenNav}) {
 
   return (
     <div className='relative h-[8vh] w-screen bg-white flex p-5 lg:p-3 justify-between items-center' >
-        <img className='h-[45px] z-[99] p-4' src="./images/logo.png" alt="" />
+        <img className='h-[45px] z-[99] p-1' src="./images/logo.png" alt="" />
         <div className={`flex flex-col gap-1 w-[30px] cursor-pointer lg:hidden z-[99]`} onClick={()=> setOpenNav(!openNav)}>
             <span className={`h-[3px]  bg-[#306DC9] rounded-[5px] transition-all ${openNav?'rotate-45 translate-y-[7px] ':''}`} ></span>
             <span className={`h-[3px]  bg-[#306DC9] rounded-[5px] transition-all ${openNav?"opacity-0":''}`} ></span>
