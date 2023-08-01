@@ -22,7 +22,7 @@ function DaySlider({day}) {
     <div className='w-screen px-4 mt-10' >
         <p className='text-[24px] text-black font-semibold' >{day}</p>
         <div className='relative w-full overflow-hidden' >
-            <div onClick={handlePrev} className='z-[99] h-full w-[40px] cursor-pointer bg-[rgba(0,0,0,0.1)] hover:bg-[rgba(0,0,0,0.5)] transition-all duration-200 absolute left-0 top-0 hidden lg:flex justify-center items-center rounded-l-md' >
+            <div onClick={handlePrev} className={`z-[99] h-full w-[40px] cursor-pointer bg-[rgba(0,0,0,0.1)] hover:bg-[rgba(0,0,0,0.5)] transition-all duration-200 absolute left-[8px] top-0  justify-center items-center rounded-l-md ${index===0?'hidden':'lg:flex'}`} >
                 <img src="/images/left-chevron.png" alt="" className='w-7 h-7' />
             </div>
             <div ref={sliderRef} className='flex w-full gap-2 pb-4 overflow-x-scroll lg:pb-0 lg:overflow-x-visible' >
