@@ -25,7 +25,7 @@ function Hero() {
   return (
     <div className='flex flex-col items-center justify-center gap-8 lg:mb-[30px] lg:mt-[50px]' >
         <div className='flex flex-col lg:flex-row lg:justify-between  w-screen md:w-[80vw] lg:w-[90vw] lg:mx-auto gap-6 p-6 lg:p-0 ' >
-            <motion.div initial={{x:-300, opacity:0}} whileInView={{x:0, opacity:1}} viewport={{once:true}} transition={{duration:0.7}} className='flex flex-col items-center gap-6 lg:items-start ' >
+            <motion.div initial={{x:-300, opacity:0}} whileInView={{x:0, opacity:1}} viewport={{once:true}} transition={{duration:0.7}} className='lg:w-[60%] flex flex-col items-center gap-6 lg:items-start ' >
                 <motion.h1   className='text-black text-center lg:text-left font-bold text-[28px] md:text-[40px] lg:text-[50px] ' >
                     Première plateforme de <span className='text-[#306DC9]' >financement</span> pour les startups en Algérie
                 </motion.h1>
@@ -37,7 +37,7 @@ function Hero() {
                     <button className={`b2 font-semibold text-[12px] lg:text-[14px] text-[#306DC9] hover:text-white flex justify-center items-center w-[160px] lg:w-[190px] h-[45px] bg-white hover:bg-[#306DC9] rounded-md border-[1px] border-solid border-[#306DC9] hover:border-white transition-all duration-300 `} >Voir le planning</button>
                 </motion.div>
             </motion.div>
-            <motion.img initial={{x:300, opacity:0}} whileInView={{x:0, opacity:1}} viewport={{once:true}} transition={{duration:0.7}} src="./images/classe.png" alt="rocket launch" className='w-full max-h-[500px] my-auto md:w-full md:h-[500px]  lg:h-[462px]' />
+            <motion.img initial={{x:300, opacity:0}} whileInView={{x:0, opacity:1}} viewport={{once:true}} transition={{duration:0.7}} src="./images/classe.png" alt="rocket launch" className='lg:max-h-[500px] my-auto' />
         </div>
         <motion.div initial="hidden" whileInView="show" viewport={{once:true}} variants={container}  className='flex w-full md:w-[80%] lg:w-[90%] items-center justify-between lg:justify-center gap-3 lg:gap-[250px] mx-auto p-6 lg:p-0 ' >
             <motion.div  viewport={{once:true}} variants={item} className='items-center justify-center hidden gap-4 md:flex'>
