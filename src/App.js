@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
-import Prometteuses from './sections/Prometteuses';
 import Enseignants from './components/Enseignants';
 import Galerie from './components/Galerie';
 import Programme from './components/Programme';
